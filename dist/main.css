@@ -1,0 +1,58 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #87CEEB; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #004484;
+  height: 10rem;
+  padding: 0; }
+  header h1 {
+    padding: 3rem;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    font-family: serif; }
+
+main {
+  float: right;
+  width: 85%; }
+  main ul {
+    list-style-type: none; }
+    main ul li {
+      color: #000000;
+      font-family: serif; }
+      main ul li input {
+        margin: 0 1rem; }
+      main ul li p {
+        display: inline-block; }
+      main ul li time {
+        display: inline-block; }
+      main ul li button {
+        background-color: black; }
+  main input {
+    margin-left: 3rem; }
+
+aside {
+  width: 15%;
+  float: left;
+  background-color: #5F8CE2; }
+  aside a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin: 2rem 3rem;
+    font-family: serif; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: default; }
+
+/*# sourceMappingURL=main.css.map */

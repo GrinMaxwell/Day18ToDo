@@ -1,0 +1,70 @@
+$black: #000000;
+$white: #ffffff;
+
+html{
+  padding: 0;
+  margin: 0;
+  background-color: #87CEEB;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #004484;
+  height: 10rem;
+  padding: 0;
+h1{
+  padding: 3rem;
+  margin: 0;
+  color: $white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: serif;
+}
+}
+main{
+  float: right;
+  width: 85%;
+  ul{
+    list-style-type: none;
+    li{
+      color: $black;
+      font-family: serif;
+      input{
+        margin: 0 1rem;
+      }
+      p{
+        display: inline-block;
+      }
+      time{
+        display: inline-block;
+      }
+      button{
+        background-color: black;
+      }
+    }
+  }
+  input{
+    margin-left: 3rem;
+  }
+}
+aside{
+  width: 15%;
+  float: left;
+  background-color: #5F8CE2;
+  // overflow-y: scroll;
+  a {
+    display: block;
+    text-decoration: none;
+    color: $black;
+    margin: 2rem 3rem;
+    font-family: serif;
+  }
+}
+.hide{
+  display: none;
+}
+.show{
+  display: default;
+}
